@@ -46,8 +46,6 @@
     "*.proto": "3d"
   },
 
-
-
   //CONFIGS
 
     //TABNINE
@@ -62,5 +60,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.syntaxProfiles": { //auto sugest tags 
+    "javascript": "jsx"
+   },
 }
-
