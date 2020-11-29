@@ -1,0 +1,66 @@
+{
+  //TERMINAL / WORKBENCH 
+  "terminal.integrated.fontSize": 18,
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 22,
+  "editor.lineHeight": 27,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "Rocket Theme",
+  "workbench.startupEditor": "newUntitledFile", 
+  "window.zoomLevel": 1,
+
+  //GITLENS
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  //ICONs
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+
+
+
+  //CONFIGS
+
+    //TABNINE
+  "tabnine.experimentalAutoImports": true,
+    //GIT
+  "git.enableSmartCommit": false,
+    //JS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+    //TS
+  "typescript.suggest.autoImports": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
+
