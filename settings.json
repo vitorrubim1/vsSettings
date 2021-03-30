@@ -1,10 +1,10 @@
 {
-  //TERMINAL / WORKBENCH 
+  //TERMINAL / WORKBENCH
   "terminal.integrated.fontSize": 18,
 
   "editor.tabSize": 2,
-  "editor.fontSize": 22,
-  "editor.lineHeight": 27,
+  "editor.fontSize": 21,
+  "editor.lineHeight": 25,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.rulers": [80, 120],
@@ -12,8 +12,11 @@
   "explorer.compactFolders": false,
   "workbench.editor.labelFormat": "short",
   "workbench.colorTheme": "Rocket Theme",
-  "workbench.startupEditor": "newUntitledFile", 
-  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+
+  //CODESPELL CHECKER
+  "cSpell.language": "en,pt,pt_PT",
 
   //GITLENS
   "gitlens.gitCommands.closeOnFocusOut": true,
@@ -21,8 +24,7 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
 
-  //ICONs
-  "workbench.iconTheme": "material-icon-theme",
+  //METERIAL ICONS
   "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "infra": "app",
@@ -48,21 +50,30 @@
 
   //CONFIGS
 
-    //TABNINE
-  "tabnine.experimentalAutoImports": true,
-    //GIT
+  //GIT
   "git.enableSmartCommit": false,
-    //JS
+  //JS
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggest.autoImports": true,
-    //TS
+  //TS
   "typescript.suggest.autoImports": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  
+
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "emmet.syntaxProfiles": { //auto sugest tags 
+  "emmet.syntaxProfiles": { //auto sugest tags
     "javascript": "jsx"
-   },
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
